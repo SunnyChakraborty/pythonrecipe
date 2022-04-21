@@ -1,0 +1,642 @@
+﻿{
+  "v": "2.0",
+  "summary": {
+    "projectName": "Investor Information",
+    "projectGuid": "fa0cbbc1-b243-49f5-b58f-c1c0d7b316dd",
+    "runId": "5cc15765-e8fa-4428-9e2e-53dad469a05a",
+    "templateLogId": "59a8c591-cd93-ec11-826c-06d14d4e48ac",
+    "projectUser": "074e1bd3-b94f-41cd-a082-943868137b5d",
+    "generated": "2022-02-22T17:16:52.4314274Z",
+    "pages": [
+      {
+        "name": "General Information",
+        "layout": [
+          {
+            "question": {
+              "text": "SF: AccountId",
+              "id": 131,
+              "value": "0017000000d4GlWAAU"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Type of Investor",
+              "id": 40,
+              "value": {
+                "display": "Entity",
+                "answer": "Entity",
+                "value": "Entity",
+                "selected": true
+              }
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Entity Name",
+              "id": 46,
+              "value": "CPP Investment Board Private Holdings Inc."
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Entity TaxID",
+              "id": 119,
+              "value": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Contacts",
+        "layout": [
+          {
+            "repeatingSection": {
+              "name": "",
+              "rows": [
+                {
+                  "layout": [
+                    {
+                      "fragmentPortion": {
+                        "name": "Contact FP",
+                        "fragmentProjectId": "f8855d15-7fc6-448e-8cbb-31f739ca5585",
+                        "layout": [
+                          {
+                            "question": {
+                              "text": "SF: Contact 1 First Name",
+                              "id": 1,
+                              "value": "Shauna"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 1 Telephone",
+                              "id": 5,
+                              "value": "(416) 868-4075"
+                            }
+                          },
+                          {
+                            "fragmentPortion": {
+                              "name": "SL - Address Fragment",
+                              "fragmentProjectId": "f464eda6-bd9b-45c4-993b-1b8bf7ab8573",
+                              "layout": [
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 1 Country",
+                                    "id": 15,
+                                    "value": "Canada",
+                                    "uniqueFieldValue": "CA"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 1 City/Town",
+                                    "id": 2,
+                                    "value": "Toronto"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 1 State/Province",
+                                    "id": 18,
+                                    "value": "Invalid formula"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 1 Email",
+                              "id": 7,
+                              "value": "smiller@cppib.com"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 1 Last Name",
+                              "id": 2,
+                              "value": "Miller"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": [
+                    {
+                      "fragmentPortion": {
+                        "name": "Contact FP",
+                        "fragmentProjectId": "f8855d15-7fc6-448e-8cbb-31f739ca5585",
+                        "layout": [
+                          {
+                            "question": {
+                              "text": "SF: Contact 2 First Name",
+                              "id": 1,
+                              "value": "PMI Finance"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 2 Telephone",
+                              "id": 5,
+                              "value": "+1 416-868-8686"
+                            }
+                          },
+                          {
+                            "fragmentPortion": {
+                              "name": "SL - Address Fragment",
+                              "fragmentProjectId": "f464eda6-bd9b-45c4-993b-1b8bf7ab8573",
+                              "layout": [
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 2 Country",
+                                    "id": 15,
+                                    "value": "Canada",
+                                    "uniqueFieldValue": "CA"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 2 City/Town",
+                                    "id": 2,
+                                    "value": "Toronto"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 2 State/Province",
+                                    "id": 18,
+                                    "value": "Invalid formula"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 2 Email",
+                              "id": 7,
+                              "value": "pmifinance@cppib.com"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 2 Last Name",
+                              "id": 2,
+                              "value": "Canada Pension"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": [
+                    {
+                      "fragmentPortion": {
+                        "name": "Contact FP",
+                        "fragmentProjectId": "f8855d15-7fc6-448e-8cbb-31f739ca5585",
+                        "layout": [
+                          {
+                            "question": {
+                              "text": "SF: Contact 3 First Name",
+                              "id": 1,
+                              "value": "Michael"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 3 Telephone",
+                              "id": 5,
+                              "value": "(416) 868-4075"
+                            }
+                          },
+                          {
+                            "fragmentPortion": {
+                              "name": "SL - Address Fragment",
+                              "fragmentProjectId": "f464eda6-bd9b-45c4-993b-1b8bf7ab8573",
+                              "layout": [
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 3 Country",
+                                    "id": 15,
+                                    "value": "Canada",
+                                    "uniqueFieldValue": "CA"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 3 City/Town",
+                                    "id": 2,
+                                    "value": "Toronto"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 3 State/Province",
+                                    "id": 18,
+                                    "value": "Invalid formula"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 3 Email",
+                              "id": 7,
+                              "value": "mweng@cppib.com"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 3 Last Name",
+                              "id": 2,
+                              "value": "Weng"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": [
+                    {
+                      "fragmentPortion": {
+                        "name": "Contact FP",
+                        "fragmentProjectId": "f8855d15-7fc6-448e-8cbb-31f739ca5585",
+                        "layout": [
+                          {
+                            "question": {
+                              "text": "SF: Contact 4 First Name",
+                              "id": 1,
+                              "value": "Ipreo"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 4 Telephone",
+                              "id": 5,
+                              "value": "na"
+                            }
+                          },
+                          {
+                            "fragmentPortion": {
+                              "name": "SL - Address Fragment",
+                              "fragmentProjectId": "f464eda6-bd9b-45c4-993b-1b8bf7ab8573",
+                              "layout": [
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 4 Country",
+                                    "id": 15,
+                                    "value": "Canada",
+                                    "uniqueFieldValue": "CA"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 4 City/Town",
+                                    "id": 2,
+                                    "value": "Toronto"
+                                  }
+                                },
+                                {
+                                  "question": {
+                                    "text": "SF: Contact 4 State/Province",
+                                    "id": 18,
+                                    "value": "Invalid formula"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 4 Email",
+                              "id": 7,
+                              "value": "monitor@privatemarketconnect.com"
+                            }
+                          },
+                          {
+                            "question": {
+                              "text": "SF: Contact 4 Last Name",
+                              "id": 2,
+                              "value": "Monitor"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Communications & Notices",
+        "layout": [
+          {
+            "question": {
+              "text": "SF: GN Primary Recipient",
+              "id": 65,
+              "value": "Shauna Miller",
+              "uniqueFieldValue": ""
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Legal Primary Recipient",
+              "id": 84,
+              "value": "Shauna Miller",
+              "uniqueFieldValue": "NULL"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: CC/DN Primary Recipient",
+              "id": 69,
+              "value": "Shauna Miller",
+              "uniqueFieldValue": ""
+            }
+          },
+          {
+            "question": {
+              "text": "SF: FS Primary Recipient",
+              "id": 74,
+              "value": "Shauna Miller",
+              "uniqueFieldValue": ""
+            }
+          },
+          {
+            "question": {
+              "text": "SF: K1 Primary Recipient",
+              "id": 79,
+              "value": "PMI Finance Canada Pension",
+              "uniqueFieldValue": "NULL"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: K1 CC Recipient",
+              "id": 98,
+              "value": "Shauna Miller"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: K1 CC Recipient",
+              "id": 98,
+              "value": "Michael Weng"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: FS CC Recipient",
+              "id": 97,
+              "value": "Michael Weng"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: FS CC Recipient",
+              "id": 97,
+              "value": "Ipreo Monitor"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: CC/DN CC Recipient",
+              "id": 96,
+              "value": "PMI Finance Canada Pension"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: CC/DN CC Recipient",
+              "id": 96,
+              "value": "Michael Weng"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: CC/DN CC Recipient",
+              "id": 96,
+              "value": "Ipreo Monitor"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: CC/DN CC Recipient",
+              "id": 96,
+              "value": "PMI Finance Canada Pension"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Legal CC Recipient",
+              "id": 95,
+              "value": "PMI Finance Canada Pension"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Legal CC Recipient",
+              "id": 95,
+              "value": "Michael Weng"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Legal CC Recipient",
+              "id": 95,
+              "value": "Ipreo Monitor"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: Legal CC Recipient",
+              "id": 95,
+              "value": "PMI Finance Canada Pension"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: GN CC Recipient",
+              "id": 94,
+              "value": "PMI Finance Canada Pension"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: GN CC Recipient",
+              "id": 94,
+              "value": "Michael Weng"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: GN CC Recipient",
+              "id": 94,
+              "value": "Ipreo Monitor"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: GN CC Recipient",
+              "id": 94,
+              "value": "PMI Finance Canada Pension"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Distributions of Cash",
+        "layout": [
+          {
+            "question": {
+              "text": "SF: DOC Bank Name",
+              "id": 5,
+              "value": "Test"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Account Number",
+              "id": 106,
+              "value": "123456"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Bank Type",
+              "id": 91,
+              "value": {
+                "display": "Domestic (US)",
+                "answer": "Domestic (US)",
+                "value": "Domestic",
+                "selected": true
+              }
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC ABA Number",
+              "id": 4,
+              "value": "123456789"
+            }
+          },
+          {
+            "fragmentPortion": {
+              "name": "SL - Bank Address Fragment",
+              "fragmentProjectId": "f464eda6-bd9b-45c4-993b-1b8bf7ab8573",
+              "layout": [
+                {
+                  "question": {
+                    "text": "SF: Beneficiary Bank Street Address",
+                    "id": 1,
+                    "value": "123 Street"
+                  }
+                },
+                {
+                  "question": {
+                    "text": "SF: Beneficiary Bank Country",
+                    "id": 15,
+                    "value": "United Kingdom",
+                    "uniqueFieldValue": "GB"
+                  }
+                },
+                {
+                  "question": {
+                    "text": "SF: Beneficiary Bank City/Town",
+                    "id": 2,
+                    "value": "Toronto"
+                  }
+                },
+                {
+                  "question": {
+                    "text": "County",
+                    "id": 21,
+                    "value": "Essex",
+                    "uniqueFieldValue": "GB-ESS"
+                  }
+                },
+                {
+                  "question": {
+                    "text": "SF: Beneficiary Bank Postal Code",
+                    "id": 4,
+                    "value": "IG14LF"
+                  }
+                },
+                {
+                  "question": {
+                    "text": "SF: Beneficiary Bank State/Province",
+                    "id": 18,
+                    "value": "Essex"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Account Name",
+              "id": 107,
+              "value": "CPP Test"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Secondary beneficiary?",
+              "id": 39,
+              "value": {
+                "display": "No",
+                "answer": "No",
+                "value": "No",
+                "selected": true
+              }
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Intermediary Bank?",
+              "id": 21,
+              "value": {
+                "display": "No",
+                "answer": "No",
+                "value": "No",
+                "selected": true
+              }
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Best Contact Name",
+              "id": 125,
+              "value": "Shauna Miller"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Additional Notes",
+              "id": 126,
+              "value": "None"
+            }
+          },
+          {
+            "question": {
+              "text": "SF: DOC Best Contact Number",
+              "id": 24,
+              "value": "(416) 868-4075"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
